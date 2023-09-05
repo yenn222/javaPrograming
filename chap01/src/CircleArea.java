@@ -8,6 +8,8 @@ public class CircleArea {
 		
 		System.out.print("반지름 " + radius + ", ");
 		System.out.println("원의 면적 = " + circleArea);
+		
+		System.out.println();
 	}
 	
 }
