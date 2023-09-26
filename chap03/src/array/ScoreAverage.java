@@ -19,7 +19,7 @@ public class ScoreAverage {
 	
 		for(int year = 0; year < score.length; year++) {
 			System.out.printf	("%d학년 : ", year+1);
-			double yearScore[] = year[0]; // 2개 있는 배열을 가르키게 되는 것.
+			double yearScore[] = score[year]; // 2개 있는 배열을 가르키게 되는 것.
 			for(int term = 0; term < yearScore.length; term++) {
 				System.out.print("  " + yearScore[term]);
 			}
