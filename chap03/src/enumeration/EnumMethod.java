@@ -27,5 +27,6 @@ public class EnumMethod {
 		for (Week day : days) {
 			System.out.println(day);
 		}
+		System.out.println(days.length);
 	}
 }
