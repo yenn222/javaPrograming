@@ -1,5 +1,11 @@
 package access.p;
 
-public class A {
+import access.q.B;
 
+public class A {
+	
+	void f() {
+		B b = new B();
+		b.setN(7);
+	}
 }

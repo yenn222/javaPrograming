@@ -8,7 +8,6 @@ public class CircleMethod {
 		Circle circle2 = new Circle(20);
 		
 		Circle circle = null;
-		System.out.println(circle);
 	
 		
 		System.out.println(circle1.radius);
@@ -21,8 +20,10 @@ public class CircleMethod {
 		circle.radius++;
 		System.out.println(circle1.radius);
 		
-		circle2 = circle1;
-		circle2.radius++;
-		System.out.println(circle1.radius);
+//		circle2 = circle1;
+//		circle2.radius++;
+//		System.out.println(circle1.radius);
+		
+		circle2 = null; //gc 유도
 	}
 }

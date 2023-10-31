@@ -1,5 +1,5 @@
 package access.q;
 
-public class D {
+class D {
 
 }

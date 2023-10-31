@@ -1,11 +1,11 @@
 package shopping;
 
 public class Customer {
-	String id;
-	String name;
-	String mail;
-	String address;
-	int mileage;
+	private String id;
+	private String name;
+	private String mail;
+	private String address;
+	private int mileage;
 
 	public Customer(String id, String name, String mail, String address, int mileage) {
 		this.id = id;

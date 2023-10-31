@@ -5,7 +5,7 @@ public class Main {
 	// 그리고 print 각각 호출하기
 	public static void main(String[] args) {
 		Student me = new Student(20221038, "모바일융합공학과", "임예은", "010-4733-3560");
-		Student you = new Student(20221032, "모바일융합공학과", "이은채", "010-3066-0747");
+//		Student you = new Student(20221032, "모바일융합공학과", "이은채", "010-3066-0747");
 		
 //		me = 20221038;
 //		me.department = "모바일융합공학과";
@@ -19,7 +19,7 @@ public class Main {
 
 		me.print();
 		
-		you.print();
+//		you.print();
 	}
 
 }
