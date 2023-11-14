@@ -34,7 +34,7 @@ public class ColorPoint extends Point {
 	}
 	
 	void showColorPoint() {
-		System.out.println(color);
+		System.out.println(color + ", ");
 		showPoint();
 	}
 

@@ -17,7 +17,7 @@ public class Point {
 	public void set(final int x, final int y) {
 		this.x = x;
 		this.y = y;
-		this.color = color;
+
 	}	
 	public void showPoint() {
 			System.out.println("(" + x + ", " + y + ")");
