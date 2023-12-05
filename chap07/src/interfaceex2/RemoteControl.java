@@ -10,7 +10,17 @@ public interface RemoteControl {
 	void turnOff();
 	void setVolume(final int voulme);
 	
-	void setMute(boolean mute);
-	//정적 메소드
+	//디폴트 메소드 - 매우 주의하여 사용할 것!
+	default void setMute(boolean mute) {
+		if(mute) {
+			System.out.println("무음 처리");
+		}else {
+			System.out.println("무음 해제");
+		}
+	}	
 	
+	//정적 메소드
+	static void changeBattery() {
+		System.out.println("건전지 교환");
+	}
 }
